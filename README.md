@@ -1,5 +1,5 @@
 SHADOW  EYE 
-made by Aljaž Primc Štempihar 21:04 25 February 2022
+made by Primc  21:04 25 February 2022
 
 DESC
 The projects shadow eye consits of self powering camera. The camera is powered with solar power,
