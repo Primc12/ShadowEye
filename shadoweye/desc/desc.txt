@@ -1,0 +1,40 @@
+SHADOW  EYE 
+made by Aljaž Primc Štempihar 21:04 25 February 2022
+
+DESC
+The projects shadow eye consits of self powering camera. The camera is powered with solar power,
+and it can rotate up to 180 degrees using servo. The arduino board controls when camera power on
+and camera automacally takes a photo and then starts livestream. For battery saving and memory 
+on sd card camera takes 9 pictures a day, at 3 different times: 7 15 20 and timelapse. When the time hits 15:00
+the camera will also start livestream which will last 1h. When livestream happens servo will slowly rotate 
+180 degrees. 
+
+POWER
+We have two 5W solar panels each on one side. The are connected in series and then in parrael to give 5 volts.
+The 5V will go through buck converter to give regulated output voltage and boost 5V to 7.4. The two lithum
+cells in series will charge and then the power wil go trough transistor into camera. Arduino will also work 
+with 7.4V, it will be powering the base of transistor and controling servo, leds.
+
+ACHIEVEMENTS
+I will be able to see around the house and get epic shots and timelapses. The project can be future expanded with 
+radio transmiting networks itd... I will see how long the components last and I will see the time.
+
+MATERIALS
+We will be using: Wood (foudation), Plastic (waterproofing), Cardboard (construction), Sticks (construction).
+
+EL. COMPONENTS
+2x 5watt solar cells
+Arduino mega (can be uno,mini)
+DC-DC step up buck conventer
+Esp32 cam
+Mini servo motor
+wires
+
+
+...
+
+
+
+
+
+
