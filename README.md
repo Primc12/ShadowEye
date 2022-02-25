@@ -1,7 +1,7 @@
 SHADOW  EYE 
 made by Primc  21:04 25 February 2022
 
-DESC
+
 The projects shadow eye consits of self powering camera. The camera is powered with solar power,
 and it can rotate up to 180 degrees using servo. The arduino board controls when camera power on
 and camera automacally takes a photo and then starts livestream. For battery saving and memory 
